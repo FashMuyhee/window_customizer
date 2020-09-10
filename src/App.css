@@ -1,0 +1,28 @@
+header {
+  height: 60px;
+  background: white;
+  color: #282c34;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+nav {
+  width: 50%;
+  justify-self: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+ justify-content: center;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+

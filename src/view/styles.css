@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.view {
+  width: 70%;
+  border: 1px solid;
+  padding: 10px;
+  height: 70%;
+  /* justify-self: center; */
+}
+.view .window {
+  width: 70%;
+}
+.view .handle {
+  /* width: 30%; */
+}
+img.hinge {
+  width: 100px;
+}
+.view .hinge {
+  width: 30%;
+}
+.final {
+  font-size: 20px;
+  text-align: center;
+}
+.custom_options {
+  width: 30%;
+  border: 1px solid yellow;
+  padding: 10px;
+  height: 100px;
+}
+
+.custom_options a {
+  color: cornflowerblue;
+  font-size: 16px;
+  background: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  margin-top: 10px;
+    position: absolute;
+    text-align: center;
+    line-height: 2.2em;
+}

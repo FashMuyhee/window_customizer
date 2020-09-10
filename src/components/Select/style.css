@@ -1,0 +1,21 @@
+.box {
+  width: 50%;
+  height: 60px;
+  margin: 24px auto;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+select {
+  width: 100px;
+  color: #000000;
+  display: none;
+  position: absolute;
+  left: 7%;
+}
+select.show {
+  display: block;
+}
+select.hide {
+  display: none;
+}
